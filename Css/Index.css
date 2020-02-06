@@ -1,0 +1,142 @@
+.container{
+    width: 100%;
+}
+.container .wrapper{
+    width: 95%;
+    margin-bottom: 25px;
+}
+.fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+
+  }
+  button{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .grid a{
+      margin-right: 20px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    margin-right: 15px;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-right: 15px;
+  }
+  .grid.flex {
+    display: flex;
+    margin-bottom: 15px;
+}
+.grid {
+    width:100%;
+}
+.grid.flex .grid-1-3 {
+    width: 33%;
+    flex-grow: 1;
+    padding-right: 20px;
+}
+.header-container {
+    background: #e6f2ff
+}
+.RYA-programmes img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    float: left;
+}
+.RYA-programmes{
+    height: 180px;
+    background: #deedfd;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.RYA-programmes li {
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.headerr{
+    width: 100%;
+}
+.full-width{
+    width: 100%;
+    float: left;
+}
+.full-header{
+    background-color: #e6f2ff;
+}
+.nav li{
+   
+}
+.gird-button{
+width: 100%;
+float: left;
+}
+.Rys-img{
+    position: relative;
+       ;
+}
+.information{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 300px;
+    height: auto;
+    color: white;
+  
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+header{
+    background-color: #e6f2ff;
+}
+.navbar-toggler{
+   width: auto;
+}
+@media screen and (max-width: 800px){
+    .Rys-img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #0E6FB4 ;
+    }
+    .information{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        top: 5px;
+        right: 4px;
+    
+       
+    }
+}
